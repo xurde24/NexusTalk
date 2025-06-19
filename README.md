@@ -1,6 +1,13 @@
-<h1 align="center">🌟 Nexustalk - Video Calling & Chat Application</h1>
+🌟 NexusTalk - Video Calling & Chat Application
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+NexusTalk is a real-time video chat and language exchange platform that connects users worldwide combining video calling with interactive chat features, it helps learners practice languages with native speakers in a seamless digital environment.
+
+## Screenshots
+
+![App Screenshot](/frontend/public/screenshot-for-readme.png)
+
+
+## Features
 
 Highlights:
 
@@ -15,112 +22,62 @@ Highlights:
 - 🎯 Built with Scalable Technologies like Stream
 - ⏳ And much more!
 
----
 
-🖥️ Frontend Implementation
+## Tech Stack
 
-- Tech Stack Framework: React
+**Client:**  React, TailwindCSS, Zustand, TanStack Query, Stream API,Daisy UI
 
-- Styling: TailwindCSS
+**Server:** Node.js, Express, MongoDB, Mongoose, JWT
 
-- State Management: Zustand
+## Environment Variables
 
-- API Handling: TanStack Query
+To run this project, you will need to add the following environment variables to your .env file
 
-- WebRTC: Stream API
+`PORT=5001`
 
+`MONGO_URL=your_mongo_url`
 
+`STREAM_API_KEY=your_stream_api_key`
 
+`STREAM_API_SECRET=your_stream_api_secret`
 
-Key Features
-
-1. Theme selector with 32 UI options
-
-2. Protected authentication routes
-
-3. Real-time chat and video interface
-
-4. Comprehensive error handling
-
----
-
-⚙️ Backend Implementation
-
--Tech Stack Server: Express
-
--Database: MongoDB
-
--Security: JWT Authentication
+`JWT_SECRET_KEY=your_jwt_secret`
 
 
+## Run Locally
 
-Key Features
+Clone the project
 
--RESTful API endpoints
+```bash
+  git clone https://github.com/xurde24/NexusTalk.git
+```
 
--User authentication system
+Go to the project directory
 
--Message and call history storage
+```bash
+  cd my-project
+```
 
--Server-side error logging
+🔧 Install dependencies
 
+```bash
+  npm install
+```
 
----
+Start the server
 
-🛠️ Environment Setup
-
-
-Backend Configuration (.env)
-
-PORT=5001
-
-MONGO_URL=your_mongodb_url
-
-JWT_SECRET=your_jwt_secret
-
-STREAM_API_KEY=your_stream_key
-
+```bash
+  npm run dev
+```
 
 
+## Contributing
 
-Frontend Configuration (.env)
-
-STREAM_KEY=your_stream_key
-
-
-🚀 Installation Guide
-
-Install Backend Dependencies
-
-bash
-
-cd backend
-
-npm install
+If you find any issues with the website or have suggestions for improvement, please feel free to submit a pull request or open an issue in this repository. Your contributions are welcome!
 
 
-Install Frontend Dependencies
+## Feedback
+Thank you for using NexusTalk!
 
-bash
+If you have any feedback, please reach out to me at anandshreyansh24@gmail.com
 
-cd ../frontend
-
-npm install
-
-
-
-Run Development Servers
-
-bash
-
-npm run dev
-
-
-
-
-📜 License
-
-MIT License - Free for educational use. Commercial use requires permission.
-
-
-Like this project? Give it a ⭐ and share with fellow language learners!
