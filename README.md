@@ -1,5 +1,6 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+<h1 align="center">🌟 Nexustalk - Video Calling & Chat Application</h1>
 
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
 Highlights:
 
@@ -20,9 +21,34 @@ Highlights:
 
 ### Backend (`/backend`)
 
-### Frontend (`/frontend`)
+```
+PORT=5001
+MONGO_URL=your_mongo_url
+STEAM_API_KEY=your_steam_api_key
+STEAM_API_SECRET=your_steam_api_secret
+JWT_SECRET_KEY=your_jwt_secret
+NODE_ENV=development
+```
+
+---
 
 ## 🔧 Run the Backend
 
+```bash
+cd backend
+npm install
+npm run dev
+```
+
 ## 💻 Run the Frontend
 
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+📜 License
+MIT License - Free for educational use. Commercial use requires permission.
+
+Like this project? Give it a ⭐ and share with fellow language learners!
