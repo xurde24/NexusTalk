@@ -17,36 +17,68 @@ Highlights:
 
 ---
 
-## 🧪 .env Setup
+🖥️ Frontend
+Tech Stack:
 
-### Backend (`/backend`)
+React + TailwindCSS
 
-```
+Zustand (State)
+
+TanStack Query
+
+Stream API for WebRTC
+
+Features:
+
+Theme selector (32 options)
+
+Protected routes
+
+Real-time chat/video UI
+
+Error handling
+
+⚙️ Backend
+Tech Stack:
+
+Express + MongoDB
+
+JWT Authentication
+
+Socket.IO
+
+Features:
+
+REST API endpoints
+
+User authentication
+
+Message/call history
+
+Error logging
+
+🛠️ Setup
+Backend (.env)
+env
 PORT=5001
-MONGO_URL=your_mongo_url
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+STREAM_API_KEY=your_stream_key
+Frontend (.env)
+env
+VITE_API_URL=http://localhost:5001
+VITE_STREAM_KEY=your_stream_key
+🚀 Installation
+bash
+# Backend
+cd backend && npm install
 
----
+# Frontend 
+cd ../frontend && npm install
 
-## 🔧 Run the Backend
+# Run both
+npm run dev (in both folders)
 
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-## 💻 Run the Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 📜 License
 MIT License - Free for educational use. Commercial use requires permission.
