@@ -17,54 +17,51 @@ Highlights:
 
 
 🖥️ Frontend Implementation
-Tech Stack
-Framework: React
 
-Styling: TailwindCSS
-
-State Management: Zustand
-
-API Handling: TanStack Query
-
-WebRTC: Stream API
+-Tech Stack Framework: React
+-Styling: TailwindCSS
+-State Management: Zustand
+-API Handling: TanStack Query
+-WebRTC: Stream API
 
 Key Features
-Theme selector with 32 UI options
 
-Protected authentication routes
+-Theme selector with 32 UI options
+-Protected authentication routes
+-Real-time chat and video interface
+-Comprehensive error handling
 
-Real-time chat and video interface
-
-Comprehensive error handling
 
 ⚙️ Backend Implementation
-Tech Stack
-Server: Express
 
-Database: MongoDB
-
-Security: JWT Authentication
+-Tech Stack Server: Express
+-Database: MongoDB
+-Security: JWT Authentication
 
 Key Features
-RESTful API endpoints
 
-User authentication system
+-RESTful API endpoints
+-User authentication system
+-Message and call history storage
+-Server-side error logging
 
-Message and call history storage
-
-Server-side error logging
 
 🛠️ Environment Setup
+
 Backend Configuration (.env)
-env
+
 PORT=5001
 MONGO_URL=your_mongodb_url
 JWT_SECRET=your_jwt_secret
 STREAM_API_KEY=your_stream_key
+
 Frontend Configuration (.env)
-env
+
 STREAM_KEY=your_stream_key
+
+
 🚀 Installation Guide
+
 Install Backend Dependencies
 
 bash
@@ -75,14 +72,12 @@ Install Frontend Dependencies
 bash
 cd ../frontend
 npm install
+
 Run Development Servers
 
 bash
-# In backend directory
 npm run dev
 
-# In frontend directory (new terminal)
-npm run dev
 
 
 📜 License
