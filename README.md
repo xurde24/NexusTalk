@@ -15,32 +15,34 @@ Highlights:
 - 🎯 Built with Scalable Technologies like Stream
 - ⏳ And much more!
 
+---
 
 🖥️ Frontend Implementation
 
--Tech Stack Framework: React
+- Tech Stack Framework: React
 
--Styling: TailwindCSS
+- Styling: TailwindCSS
 
--State Management: Zustand
+- State Management: Zustand
 
--API Handling: TanStack Query
+- API Handling: TanStack Query
 
--WebRTC: Stream API
+- WebRTC: Stream API
+
 
 
 
 Key Features
 
--Theme selector with 32 UI options
+1. Theme selector with 32 UI options
 
--Protected authentication routes
+2. Protected authentication routes
 
--Real-time chat and video interface
+3. Real-time chat and video interface
 
--Comprehensive error handling
+4. Comprehensive error handling
 
-
+---
 
 ⚙️ Backend Implementation
 
@@ -63,9 +65,10 @@ Key Features
 -Server-side error logging
 
 
-
+---
 
 🛠️ Environment Setup
+
 
 Backend Configuration (.env)
 
