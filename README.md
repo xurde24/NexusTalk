@@ -15,59 +15,74 @@ Highlights:
 - 🎯 Built with Scalable Technologies like Stream
 - ⏳ And much more!
 
----
 
-🖥️ Frontend
-Tech Stack:
+🖥️ Frontend Implementation
+Tech Stack
+Framework: React
 
-React + TailwindCSS
-Zustand (State)
-TanStack Query
-Stream API for WebRTC
+Styling: TailwindCSS
 
-Features:
+State Management: Zustand
 
-Theme selector (32 options)
-Protected routes
-Real-time chat/video UI
-Error handling
+API Handling: TanStack Query
 
-⚙️ Backend
-Tech Stack:
+WebRTC: Stream API
 
-Express + MongoDB
-JWT Authentication
+Key Features
+Theme selector with 32 UI options
 
-Features:
+Protected authentication routes
 
-REST API endpoints
-User authentication
-Message/call history
-Error logging
+Real-time chat and video interface
 
-🛠️ Setup
+Comprehensive error handling
 
-Backend (.env)
+⚙️ Backend Implementation
+Tech Stack
+Server: Express
 
+Database: MongoDB
+
+Security: JWT Authentication
+
+Key Features
+RESTful API endpoints
+
+User authentication system
+
+Message and call history storage
+
+Server-side error logging
+
+🛠️ Environment Setup
+Backend Configuration (.env)
+env
 PORT=5001
 MONGO_URL=your_mongodb_url
 JWT_SECRET=your_jwt_secret
 STREAM_API_KEY=your_stream_key
-
-Frontend (.env)
-
+Frontend Configuration (.env)
+env
 STREAM_KEY=your_stream_key
+🚀 Installation Guide
+Install Backend Dependencies
 
-🚀 Installation
 bash
-# Backend
-cd backend && npm install
+cd backend
+npm install
+Install Frontend Dependencies
 
-# Frontend 
-cd ../frontend && npm install
+bash
+cd ../frontend
+npm install
+Run Development Servers
 
-# Run 
-npm run dev 
+bash
+# In backend directory
+npm run dev
+
+# In frontend directory (new terminal)
+npm run dev
 
 
 📜 License
